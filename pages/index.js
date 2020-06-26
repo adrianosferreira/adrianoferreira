@@ -31,6 +31,11 @@ export default function Home() {
 						<h3>Resume &rarr;</h3>
 						<p>What I've done thus far</p>
 					</a>
+
+					<a href="mailto:adrianokta@gmail.com" className="card">
+						<h3>Email &rarr;</h3>
+						<p>adrianokta@gmail.com</p>
+					</a>
 				</div>
 			</main>
 

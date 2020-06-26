@@ -1,0 +1,21 @@
+body {
+	background-color: lightgray;
+}
+
+.description {
+	width: 80%;
+}
+
+.card:hover {
+	color: gray;
+	border-color: gray;
+}
+
+ul li {
+	margin-bottom: 15px;
+}
+
+.professional {
+	display: block;
+	width: 80%
+}

@@ -107,7 +107,7 @@ export default function Home() {
 			<h2 className="personaltitle">PERSONAL PROJECTS</h2>
 
 			<div className="professional">
-				<div>
+				<div className="job">
 					<ul>
 						<li><span className="personaltitlelist">$</span>I publish much of my code under an open-source license on <a href="https://github.com/adrianosferreira">GitHub</a>.</li>
 						<li><span className="personaltitlelist">$</span>I contribute to some very known open-source projects: Composer, Guzzle, and WordPress.</li>
@@ -124,7 +124,7 @@ export default function Home() {
 			<h2>EDUCATION</h2>
 
 			<div className="professional">
-				<div>
+				<div className="job">
 					<ul>
 						<li><span className="listStyle">$</span><a href="http://www.zend.com/en/yellow-pages/ZEND029563">Zend Certified PHP Engineer</a> — Zend by Rogue Wave Software — 2017</li>
 						<li><span className="listStyle">$</span>Agile Development — ITA — Aeronautic Technologic Institute — 2018</li>

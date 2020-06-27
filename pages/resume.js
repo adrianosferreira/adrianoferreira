@@ -48,7 +48,7 @@ export default function Home() {
 
 			<div className="professional">
 				<div className="job">
-					<h5>Jan/2013 — Jun/2020</h5>
+					<h5>Jan/2013 — Current</h5>
 					<h3><a href="https://onthegosystems.com/">OnTheGoSystems</a></h3>
 					<h4>Senior Software Engineer</h4>
 					<ul>

@@ -1,21 +1,243 @@
+.container {
+	min-height: 100vh;
+	padding: 0 0.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	text-decoration: underline;
+}
+
+main {
+	padding: 5rem 0;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	width: 100%;
+	height: 100px;
+	border-top: 1px solid #eaeaea;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer img {
+	margin-left: 0.5rem;
+}
+
+footer a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title a {
+	color: #0070f3;
+	text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+	text-decoration: underline;
+}
+
+.title,
+.description {
+	text-align: center;
+}
+
+code {
+	background: #fafafa;
+	border-radius: 5px;
+	padding: 0.75rem;
+	font-size: 1.1rem;
+	font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+	            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+	display: flex;
+	justify-content: center;
+	max-width: 1000px;
+	margin-top: 3rem;
+}
+
+.card {
+	margin: 1rem;
+	flex-basis: 40%;
+	padding: 1.5rem;
+	text-align: left;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+	transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.home .card {
+	margin: 1rem;
+	flex-basis: 40%;
+	padding: 1.5rem;
+	text-align: left;
+	text-decoration: none;
+	border: 1px solid white;
+	border-radius: 10px;
+	transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.card h3 {
+	margin: 0 0 1rem 0;
+	font-size: 1.5rem;
+	color: white;
+}
+
+.card p {
+	margin: 0;
+	font-size: 1.25rem;
+	line-height: 1.5;
+}
+
+.logo {
+	height: 1em;
+}
+
+@media (max-width: 600px) {
+	.grid {
+		width: 100%;
+		flex-direction: column;
+	}
+}
+
+html,
 body {
-	background-color: lightgray;
+	padding: 0;
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #272727;
+	font-family: Candara, "Book Antiqua", Palatino, sans-serif;
+	color: rgba(255, 255, 255);
+}
+
+body {
+	opacity: 0.7;
 }
 
 .description {
+	line-height: 1.5;
+	font-size: 1.2rem;
 	width: 80%;
 }
 
-.card:hover {
-	color: gray;
-	border-color: gray;
+.home .card:hover {
+	border-color: #4BB6C6;
+	color: #4BB6C6;
+}
+
+.home .card:hover h3 {
+	color: #4BB6C6;
 }
 
 ul li {
 	margin-bottom: 15px;
 }
 
+ul {
+	line-height: 150%;
+}
+
 .professional {
 	display: block;
 	width: 80%
+}
+
+.title {
+	margin: 0;
+	line-height: 1.15;
+	font-size: 4rem;
+}
+
+a {
+	color: #54CBE0;
+}
+
+.home .grid {
+	flex-wrap: wrap;
+}
+
+.professional h5 {
+	color: darkgray;
+	float: right
+}
+
+.surname {
+	color: #BD93F9;
+}
+
+.blue {
+	color: #54CBE0;
+}
+
+h2 {
+	color: #BD93F9;
+}
+
+.personaltitle {
+	color: #F9D368;
+}
+
+.personaltitlelist {
+	color: #F9D368;
+	margin-right: 10px;
+	font-size: 110%;
+}
+
+h3 {
+	color: #54CBE0;
+}
+
+h4 {
+	margin-top: -18px
+}
+
+.yellow {
+	color: #F9D368;
+}
+
+.professional ul {
+	list-style: none;
+	margin-left: -40px;
+}
+
+.listStyle {
+	color: #BD93F9;
+	margin-right: 10px;
+	font-size: 110%;
+}
+
+.listStyleHome {
+	color: #BD93F9;
+	margin-right: 15px;
+	font-size: 110%;
+}
+
+.job {
+	margin-bottom: 40px;
+}
+
+.green {
+	color: #71D385;
 }

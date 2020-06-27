@@ -13,7 +13,7 @@ export default function Home() {
 
 			<div className="grid skills">
 				<div className="card">
-					<p className="blue">LANGUAGES & FRAMEWORKS</p>
+					<p className="green">LANGUAGES & FRAMEWORKS</p>
 					<ul>
 						<li>PHP (Zend Certified Engineer, PHPUnit, Symfony, Codeception)</li>
 						<li>JavaScript (ES6, React, Webpack, Jest)</li>
@@ -23,7 +23,7 @@ export default function Home() {
 				</div>
 
 				<div className="card">
-					<p className="blue">INFRASTRUCTURE</p>
+					<p className="green">INFRASTRUCTURE</p>
 					<ul>
 						<li>Docker</li>
 						<li>Amazon AWS (EC2)</li>
@@ -34,7 +34,7 @@ export default function Home() {
 				</div>
 
 				<div className="card">
-					<p className="blue">DATABASES</p>
+					<p className="green">DATABASES</p>
 					<ul>
 						<li>MySQL</li>
 						<li>Redis</li>

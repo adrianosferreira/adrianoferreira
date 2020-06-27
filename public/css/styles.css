@@ -73,7 +73,6 @@ code {
 
 .card {
 	margin: 1rem;
-	flex-basis: 40%;
 	padding: 1.5rem;
 	text-align: left;
 	color: white;
@@ -180,7 +179,8 @@ a {
 
 .professional h5 {
 	color: darkgray;
-	float: right
+	float: right;
+	font-size: 110%;
 }
 
 .surname {
@@ -193,6 +193,7 @@ a {
 
 h2 {
 	color: #BD93F9;
+	font-size: 180%
 }
 
 .personaltitle {
@@ -207,10 +208,13 @@ h2 {
 
 h3 {
 	color: #54CBE0;
+	font-size: 180%;
 }
 
 h4 {
-	margin-top: -18px
+	margin-top: -30px;
+	margin-bottom: 50px;
+	font-size: 140%;
 }
 
 .yellow {
@@ -220,6 +224,7 @@ h4 {
 .professional ul {
 	list-style: none;
 	margin-left: -40px;
+	font-size: 110%;
 }
 
 .listStyle {
@@ -235,9 +240,22 @@ h4 {
 }
 
 .job {
-	margin-bottom: 40px;
+	margin-bottom: 80px;
 }
 
 .green {
 	color: #71D385;
+}
+
+
+.card ul {
+	line-height: 180%;
+}
+
+.card ul li {
+	font-size: 130%;
+}
+
+.skills ul {
+	margin-left: -22px;
 }

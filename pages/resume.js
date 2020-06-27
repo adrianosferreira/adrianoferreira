@@ -11,7 +11,7 @@ export default function Home() {
 
 			<Description />
 
-			<div className="grid">
+			<div className="grid skills">
 				<div className="card">
 					<p className="blue">LANGUAGES & FRAMEWORKS</p>
 					<ul>
@@ -49,7 +49,7 @@ export default function Home() {
 			<div className="professional">
 				<div className="job">
 					<h5>Jan/2013 — Jun/2020</h5>
-					<h3>OnTheGoSystems</h3>
+					<h3><a href="https://onthegosystems.com/">OnTheGoSystems</a></h3>
 					<h4>Senior Software Engineer</h4>
 					<ul>
 						<li><span className="listStyle">$</span>Wrote high scalable PHP code which are currently running in over 1,000,000 sites.</li>
@@ -61,7 +61,7 @@ export default function Home() {
 						<li><span className="listStyle">$</span>Took the PHP automated tests to the next level by introducing browser testing through Selenium. That helped to prevent a huge number of bugs not caught with unit and integration tests.</li>
 						<li><span className="listStyle">$</span>Developed a command line interface for the Selenium tests. That increased the total running time of the tests in CI by 200%.</li>
 						<li><span className="listStyle">$</span>Developed a React web app for the proper management of deployments to AWS EC2 instances.</li>
-						<li><span className="listStyle">$</span>Developed a service for collecting and managing stats from customer sites. This application helped the company to understand the clients </li>
+						<li><span className="listStyle">$</span>Developed a service for collecting and managing stats from customer sites. This application Developed a service for collecting and managing stats from customer sites. This application helped the company to understand the client's environment thus provide more suitable products.</li>
 						<li><span className="listStyle">$</span>Developed a REST service (PHP) and a Node app for recovering financial data that was lost after a hack attack. The service successfully recovered 99% of the data lost (orders, user accounts, renewals).</li>
 					</ul>
 				</div>
@@ -75,6 +75,7 @@ export default function Home() {
 						<li><span className="listStyle">$</span>Developed a real-time dashboard service for monitoring the orders and notifying restaurants owners by emails and SMS messages.</li>
 						<li><span className="listStyle">$</span>Defined the MySQL database schema.</li>
 						<li><span className="listStyle">$</span>Developed a white-label service for letting restaurant owners to use the product as a standalone food delivery system.</li>
+						<li><span className="listStyle">$</span>Conducted many product presentations for attracting new business partners.</li>
 					</ul>
 				</div>
 

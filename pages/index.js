@@ -26,12 +26,12 @@ export default function Home() {
 
 						<a href="/resume" className="card">
 							<h3 className="">Resume &rarr;</h3>
-							<p>What I've done thus far</p>
+							<p>My career thus far</p>
 						</a>
 
-						<a href="mailto:adrianokta@gmail.com" className="card">
-							<h3 className="">Email &rarr;</h3>
-							<p>adrianokta@gmail.com</p>
+						<a href="/projects" className="card">
+							<h3 className="">Projects &rarr;</h3>
+							<p>What I've built</p>
 						</a>
 					</div>
 				</div>

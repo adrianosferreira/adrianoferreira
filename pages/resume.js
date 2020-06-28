@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Title from "../components/Title";
 import Description from "../components/Description";
+import Projects from "../components/Projects";
 
 export default function Home() {
 	return (<div className="container">
@@ -10,6 +11,10 @@ export default function Home() {
 			<Title />
 
 			<Description />
+
+			<div className="description">
+				<p>Let's get in touch! My email is <a href="mailto:adrianokta@gmail.com">adrianokta@gmail.com</a></p>
+			</div>
 
 			<div className="grid skills">
 				<div className="card">
@@ -44,7 +49,7 @@ export default function Home() {
 
 			</div>
 
-			<h2>PROFESSIONAL EXPERIENCE</h2>
+			<h2 style={{marginTop: '50px'}}>PROFESSIONAL EXPERIENCE</h2>
 
 			<div className="professional">
 				<div className="job">
@@ -104,22 +109,7 @@ export default function Home() {
 
 			</div>
 
-			<h2 className="personaltitle">PERSONAL PROJECTS</h2>
-
-			<div className="professional">
-				<div className="job">
-					<ul>
-						<li><span className="personaltitlelist">$</span>I publish much of my code under an open-source license on <a href="https://github.com/adrianosferreira">GitHub</a>.</li>
-						<li><span className="personaltitlelist">$</span>I contribute to some very known open-source projects: Composer, Guzzle, and WordPress.</li>
-						<li><span className="personaltitlelist">$</span>Developed a <a href="https://restroutes.com/">WordPress plugin</a> that works as an interface for designing custom REST endpoints.</li>
-						<li><span className="personaltitlelist">$</span>The interface was built with React/Redux and the backend with PHP/MySQL/WordPress REST API.</li>
-						<li><span className="personaltitlelist">$</span>Built a PHP <a href="https://github.com/adrianosferreira/document-distance">Composer library</a> for calculating the distance between two documents using the cosine similarity</li>
-						<li><span className="personaltitlelist">$</span>Built a <a href="https://github.com/adrianosferreira/geophy">Gateway REST API</a> service with PHP for consuming a Real Estate public API service and expose refined and dedicated custom endpoints for a web application.</li>
-						<li><span className="personaltitlelist">$</span>I maintain several Linux servers for web hosting and other related purposes.</li>
-						<li><span className="personaltitlelist">$</span>Developed a PHP <a href="https://github.com/adrianosferreira/data-structures">Composer library</a> which provides a set of data structures in PHP.</li>
-					</ul>
-				</div>
-			</div>
+			<Projects/>
 
 			<h2>EDUCATION</h2>
 

@@ -53,7 +53,24 @@ export default function Home() {
 
 			<div className="professional">
 				<div className="job">
-					<h5>Jan/2013 — Current</h5>
+					<h5>Nov/2020 — Current</h5>
+					<h3><a href="https://www.check24.de/">CHECK24</a></h3>
+					<h4>Senior Software Engineer</h4>
+				</div>
+
+				<div className="job">
+					<h5>May/2013 — Nov/2020</h5>
+					<h3><a href="https://www.elegantthemes.com/">Elegant Themes</a></h3>
+					<h4>Senior Software Engineer</h4>
+					<ul>
+						<li><span className="listStyle">$</span>Wrote high scalable PHP and JavaScript (React) code.</li>
+						<li><span className="listStyle">$</span>Introduced automated tests in the GitHub actions pipeline.</li>
+						<li><span className="listStyle">$</span>Worked in the development of the very famous WordPress page builder plugin, Divi.</li>
+					</ul>
+				</div>
+
+				<div className="job">
+					<h5>Jan/2013 — May/2020</h5>
 					<h3><a href="https://onthegosystems.com/">OnTheGoSystems</a></h3>
 					<h4>Senior Software Engineer</h4>
 					<ul>

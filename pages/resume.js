@@ -59,7 +59,7 @@ export default function Home() {
 				</div>
 
 				<div className="job">
-					<h5>May/2013 — Nov/2020</h5>
+					<h5>May/2020 — Nov/2020</h5>
 					<h3><a href="https://www.elegantthemes.com/">Elegant Themes</a></h3>
 					<h4>Senior Software Engineer</h4>
 					<ul>

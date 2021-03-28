@@ -3,6 +3,22 @@ import Title from "../components/Title";
 import Description from "../components/Description";
 import Projects from "../components/Projects";
 
+function calculateAge(start, end) {
+	let ageDifMs = end.getTime() - start.getTime();
+	let ageDate = new Date(ageDifMs);
+	let res = ageDate.getUTCFullYear() - 1970;
+
+	if(!res) {
+		return '(Less than one year)';
+	}
+
+	if(res === 1) {
+		return `(${res} year)`;
+	}
+
+	return `(${res} years)`;
+}
+
 export default function Home() {
 	return (<div className="container">
 		<Header/>
@@ -53,13 +69,13 @@ export default function Home() {
 
 			<div className="professional">
 				<div className="job">
-					<h5>Nov/2020 — Current</h5>
+					<h5>Nov/2020 — Current {calculateAge(new Date('2020-11-01'), new Date())}</h5>
 					<h3><a href="https://www.check24.de/">CHECK24</a></h3>
 					<h4>Senior Software Engineer</h4>
 				</div>
 
 				<div className="job">
-					<h5>May/2020 — Nov/2020</h5>
+					<h5>May/2020 — Nov/2020 {calculateAge(new Date('2020-05-01'), new Date('2020-11-01'))}</h5>
 					<h3><a href="https://www.elegantthemes.com/">Elegant Themes</a></h3>
 					<h4>Senior Software Engineer</h4>
 					<ul>
@@ -70,7 +86,7 @@ export default function Home() {
 				</div>
 
 				<div className="job">
-					<h5>Jan/2013 — May/2020</h5>
+					<h5>Jan/2013 — May/2020 {calculateAge(new Date('2013-01-01'), new Date('2020-05-01'))}</h5>
 					<h3><a href="https://onthegosystems.com/">OnTheGoSystems</a></h3>
 					<h4>Senior Software Engineer</h4>
 					<ul>
@@ -89,7 +105,7 @@ export default function Home() {
 				</div>
 
 				<div className="job">
-					<h5>Jan/2012 — Jan/2013</h5>
+					<h5>Jan/2012 — Jan/2013 {calculateAge(new Date('2012-01-01'), new Date('2013-01-01'))}</h5>
 					<h3>Come Fácil</h3>
 					<h4>Owner</h4>
 					<ul>
@@ -102,7 +118,7 @@ export default function Home() {
 				</div>
 
 				<div className="job">
-					<h5>Jun/2008 — Jan/2012</h5>
+					<h5>Jun/2008 — Jan/2012 {calculateAge(new Date('2008-06-01'), new Date('2012-01-01'))}</h5>
 					<h3>Freelancer</h3>
 					<h4>Full Stack Web Developer</h4>
 					<ul>
@@ -114,7 +130,7 @@ export default function Home() {
 				</div>
 
 				<div className="job">
-					<h5>Sep/2008 — Jul/2012</h5>
+					<h5>Sep/2008 — Jul/2012 {calculateAge(new Date('2008-09-01'), new Date('2012-07-01'))}</h5>
 					<h3>Alt_C Developer</h3>
 					<h4>Database Engineer</h4>
 					<ul>
@@ -134,8 +150,8 @@ export default function Home() {
 				<div className="job">
 					<ul>
 						<li><span className="listStyle">$</span><a href="http://www.zend.com/en/yellow-pages/ZEND029563">Zend Certified PHP Engineer</a> — Zend by Rogue Wave Software — 2017</li>
-						<li><span className="listStyle">$</span>Agile Development — ITA — Aeronautic Technologic Institute — 2018</li>
-						<li><span className="listStyle">$</span>Industrial Automation — FIEMG System — 2004-2006</li>
+						<li><span className="listStyle">$</span>Mechatronic Technician — FIEMG System — 2004-2006</li>
+						<li><span className="listStyle">$</span>Agile Development — ITA — Aeronautic Technology Institute — 2018</li>
 					</ul>
 				</div>
 			</div>

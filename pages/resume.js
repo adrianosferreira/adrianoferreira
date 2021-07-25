@@ -129,17 +129,6 @@ export default function Home() {
 					</ul>
 				</div>
 
-				<div className="job">
-					<h5>Sep/2008 — Jul/2012 {calculateAge(new Date('2008-09-01'), new Date('2012-07-01'))}</h5>
-					<h3>Alt_C Developer</h3>
-					<h4>Database Engineer</h4>
-					<ul>
-						<li><span className="listStyle">$</span>Maintained a number of MySQL databases.</li>
-						<li><span className="listStyle">$</span>Planned database schemas.</li>
-						<li><span className="listStyle">$</span>Debugged database issues.</li>
-					</ul>
-				</div>
-
 			</div>
 
 			<Projects/>

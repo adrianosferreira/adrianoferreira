@@ -3,6 +3,14 @@ import Title from "../components/Title";
 import Description from "../components/Description";
 
 export default function Home() {
+
+	const cssRule =
+				"color: rgb(255, 0, 0);" +
+				"font-size: 30px;" +
+				"font-weight: bold;";
+
+	setTimeout(console.log.bind(console, "%cWhat the hell are you doing here?", cssRule), 0);
+
 	return (<div className="container">
 
 			<Header />

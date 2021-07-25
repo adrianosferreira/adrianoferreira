@@ -289,3 +289,9 @@ h4 {
 .title a:hover {
 	text-decoration: none;
 }
+
+.brNaGringa {
+	background: linear-gradient(180deg, rgba(59,180,58,1) 0%, rgba(253,245,29,1) 75%);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}

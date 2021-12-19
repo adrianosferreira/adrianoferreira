@@ -46,11 +46,11 @@ export default function Home() {
 				<div className="card">
 					<p className="green">INFRASTRUCTURE</p>
 					<ul>
+						<li>Nginx</li>
 						<li>Docker</li>
 						<li>Amazon AWS (EC2)</li>
-						<li>CI/CD (GitLab, Travis)</li>
+						<li>CI/CD (GitLab, Travis, Bamboo)</li>
 						<li>Configuration of Linux servers</li>
-						<li>SSH</li>
 					</ul>
 				</div>
 

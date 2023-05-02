@@ -22,7 +22,8 @@ export default function Home() {
 
 				<div className="home">
 					<div className="grid">
-						<a href="https://github.com/adrianosferreira/" className="card">
+
+						<a href="https://github.com/adrianosferreira/" className="card terminal-style">
 							<h3 className="">GitHub &rarr;</h3>
 							<p>What I'm up to</p>
 						</a>

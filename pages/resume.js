@@ -72,6 +72,18 @@ export default function Home() {
 					<h5>Nov/2020 — Current {calculateAge(new Date('2020-11-01'), new Date())}</h5>
 					<h3><a href="https://www.check24.de/">CHECK24</a></h3>
 					<h4>Senior Software Engineer</h4>
+					<ul>
+						<li><span className="listStyle">$</span>Responsible for deploying in both staging and production environments for applications that reach over half a million active users.</li>
+						<li><span className="listStyle">$</span>Part of the small group of 3 (2 being leaders) responsible for giving the last approval before a pull request could be merged</li>
+						<li><span className="listStyle">$</span>Mentorship of new colleagues and trainees</li>
+						<li><span className="listStyle">$</span>Given a number of technical presentations</li>
+						<li><span className="listStyle">$</span>Wrote a number of internal technical documentation for developers and project managers</li>
+						<li><span className="listStyle">$</span>Winner of the excellence program in the 1st work year. Recognition for the high performance achieved in the whole year</li>
+						<li><span className="listStyle">$</span>Converted legacy PHP codebase code style into PSR-12. Unified legacy projects code styles</li>
+						<li><span className="listStyle">$</span>Helped in the migration from Zend Framework 2 to Laminas</li>
+						<li><span className="listStyle">$</span>Introduced PHPStan with a baseline for a complete static analysis</li>
+						<li><span className="listStyle">$</span>Migrated legacy projects from PHP 7.4 into PHP 8.1</li>
+					</ul>
 				</div>
 
 				<div className="job">

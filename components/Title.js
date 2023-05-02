@@ -1,6 +1,6 @@
 const Title = () => (
 	<h1 className="title">
-		<a href="/">Adriano <span className="surname">Ferreira</span></a>
+		<a href="/">Adriano Ferreira</a>
 	</h1>
 );
 

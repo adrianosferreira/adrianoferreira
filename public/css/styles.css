@@ -56,6 +56,10 @@ footer a {
 	text-align: center;
 }
 
+.description h4 {
+	color: white;
+}
+
 code {
 	background: #fafafa;
 	border-radius: 5px;
@@ -77,8 +81,6 @@ code {
 	padding: 1.5rem;
 	text-align: left;
 	color: white;
-	background: #1D1E26;
-	border: 2px solid #74F27C;
 	text-decoration: none;
 	border-radius: 10px;
 	transition: color 0.15s ease, border-color 0.15s ease;
@@ -90,21 +92,17 @@ code {
 	padding: 1.5rem;
 	text-align: left;
 	text-decoration: none;
-	background: #1D1E26;
-	border: 2px solid #74F27C;
 	border-radius: 10px;
 	transition: color 0.15s ease, border-color 0.15s ease;
 }
 
 .card h3 {
 	margin: 0 0 1rem 0;
-	font-size: 1.5rem;
 	color: white;
 }
 
 .card p {
 	margin: 0;
-	font-size: 1.25rem;
 	line-height: 1.5;
 }
 
@@ -117,6 +115,10 @@ code {
 		width: 100%;
 		flex-direction: column;
 	}
+}
+
+h1 {
+	font-weight: normal;
 }
 
 html,
@@ -133,7 +135,6 @@ body {
 	background-color: #272727;
 	font-family: Candara, "Book Antiqua", Palatino, sans-serif;
 	color: white;
-	opacity: 0.7;
 }
 
 .description {
@@ -151,7 +152,7 @@ body {
 }
 
 ul li {
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 }
 
 ul {
@@ -170,7 +171,7 @@ ul {
 }
 
 a {
-	color: #54CBE0;
+	color: white;
 }
 
 .home .grid {
@@ -178,7 +179,7 @@ a {
 }
 
 .professional h5 {
-	color: darkgray;
+	color: white;
 	float: right;
 	font-size: 110%;
 }
@@ -196,29 +197,32 @@ p {
 }
 
 h2 {
-	color: #BD93F9;
-	font-size: 180%
+	color: white;
+	font-size: 180%;
+	font-weight: normal;
 }
 
 .personaltitle {
-	color: #F9D368;
+	margin-top: 70px;
 }
 
 .personaltitlelist {
-	color: #F9D368;
 	margin-right: 10px;
-	font-size: 110%;
+	display: none;
 }
 
 h3 {
-	color: #54CBE0;
+	color: white;
 	font-size: 180%;
+	font-weight: normal;
 }
 
 h4 {
 	margin-top: -30px;
 	margin-bottom: 50px;
 	font-size: 140%;
+	font-weight: normal;
+	color: #74F27C;
 }
 
 .yellow {
@@ -226,32 +230,24 @@ h4 {
 }
 
 .professional ul {
-	list-style: none;
 	margin-left: -40px;
-	font-size: 110%;
-}
-
-.professional p {
-	font-size: 110%;
 }
 
 .listStyle {
 	color: #BD93F9;
 	margin-right: 10px;
-	font-size: 110%;
+	display: none;
 }
 
 .listStyleHome {
 	color: #BD93F9;
 	margin-right: 15px;
-	font-size: 110%;
+	display: none;
 }
 
 .job {
 	margin-bottom: 80px;
 	color: white;
-	background: #1D1E26;
-	border: 2px solid #74F27C;
 	text-decoration: none;
 	border-radius: 10px;
 	padding: 30px;
@@ -261,17 +257,8 @@ h4 {
 	margin-top: 0px;
 }
 
-.green {
-	color: #71D385;
-}
-
-
 .card ul {
 	line-height: 180%;
-}
-
-.card ul li {
-	font-size: 130%;
 }
 
 .skills ul {
@@ -294,4 +281,34 @@ h4 {
 	background: linear-gradient(180deg, rgba(59,180,58,1) 0%, rgba(253,245,29,1) 75%);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
+}
+
+
+body {
+	background-color: black;
+	background-image: radial-gradient(rgba(0, 150, 0, 0.75), black 120%);
+	margin: 0;
+	padding: 2rem;
+	color: white;
+	font: 1.3rem Inconsolata, monospace;
+	text-shadow: 0 0 5px #C8C8C8;
+}
+body::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) 1px, transparent 1px, transparent 2px);
+	pointer-events: none;
+}
+
+::selection {
+	background: #0080FF;
+	text-shadow: none;
+}
+
+pre {
+	margin: 0;
 }
